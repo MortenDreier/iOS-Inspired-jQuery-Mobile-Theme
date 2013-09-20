@@ -708,14 +708,14 @@ input.ui-input-text, .ui-input-search {
 @media (-webkit-min-device-pixel-ratio : 1.5), (min-device-pixel-ratio : 1.5) {
 	.ui-listview .ui-icon-arrow-r {
 		background-image: url(images/arrow_right@2x.png) !important;
-		background-size: 9.5px 14px;
+		background-size: 9.5px 14px !important;
 	}
 	a[data-rel='back'], .ui-header a[data-rel='back'], a[data-rel="back"] .ui-btn-inner {
 		background-image: url(images/backButtonSprite@2x.png) !important;
-		background-size: 500px 60px;
+		background-size: 500px 60px !important;
 	}
 	.ui-input-clear {
-		background-position: right 0;
-		background-size: 100px 250px;
+		background-position: right 0 !important;
+		background-size: 100px 250px !important;
 	}
 }		
